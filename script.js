@@ -1,67 +1,81 @@
 const treinos = [
   {
     "dia": "DIA 1 – PEITO + TRÍCEPS",
-    "tecnica": "Execução controlada + volume moderado",
-    "objetivo": "Hipertrofia progressiva e segura para iniciantes",
+    "tecnica": "Alta intensidade com técnicas avançadas",
+    "objetivo": "Hipertrofia máxima, foco em falha e volume",
     "exercicios": [
       {
         "nome": "Supino reto com barra",
-        "series": "3",
-        "reps": "12",
-        "tecnica": "Cadência 2-1-2",
+        "series": "4",
+        "reps": "10",
+        "tecnica": "Pirâmide",
         "obs": ""
       },
       {
-        "nome": "Crucifixo inclinado",
+        "nome": "Supino inclinado halteres",
+        "series": "3",
+        "reps": "10",
+        "tecnica": "Cadência 3s descida",
+        "obs": ""
+      },
+      {
+        "nome": "Crossover polia alta",
         "series": "3",
         "reps": "12",
         "tecnica": "",
         "obs": ""
       },
       {
-        "nome": "Tríceps pulley",
+        "nome": "Tríceps testa",
         "series": "3",
-        "reps": "12",
+        "reps": "10",
         "tecnica": "",
         "obs": ""
       },
       {
-        "nome": "Mergulho em banco",
+        "nome": "Tríceps corda",
         "series": "3",
         "reps": "12",
-        "tecnica": "",
+        "tecnica": "Rest-pause",
         "obs": ""
       }
     ]
   },
   {
     "dia": "DIA 2 – COSTAS + BÍCEPS",
-    "tecnica": "Execução controlada + volume moderado",
-    "objetivo": "Hipertrofia progressiva e segura para iniciantes",
+    "tecnica": "Alta intensidade com técnicas avançadas",
+    "objetivo": "Hipertrofia máxima, foco em falha e volume",
     "exercicios": [
       {
-        "nome": "Puxada frontal",
+        "nome": "Puxada frente",
+        "series": "4",
+        "reps": "10",
+        "tecnica": "Cadência 2-1-2",
+        "obs": ""
+      },
+      {
+        "nome": "Remada unilateral halteres",
         "series": "3",
         "reps": "12",
         "tecnica": "",
         "obs": ""
       },
       {
-        "nome": "Remada baixa",
+        "nome": "Barra fixa",
         "series": "3",
-        "reps": "12",
+        "reps": "Até a falha",
         "tecnica": "",
         "obs": ""
       },
       {
-        "nome": "Rosca direta com barra",
+        "nome": "Rosca direta",
         "series": "3",
-        "reps": "12",
-        "tecnica": "",
+        "reps": "10",
+        "tecnica": "Drop-set",
         "obs": ""
       },
       {
-        "nome": "Rosca alternada",
+        "nome": "Rosca concentrada",
         "series": "3",
         "reps": "12",
         "tecnica": "",
@@ -70,22 +84,29 @@ const treinos = [
     ]
   },
   {
-    "dia": "DIA 3 – PERNAS",
-    "tecnica": "Execução controlada + volume moderado",
-    "objetivo": "Hipertrofia progressiva e segura para iniciantes",
+    "dia": "DIA 3 – PERNAS COMPLETAS",
+    "tecnica": "Alta intensidade com técnicas avançadas",
+    "objetivo": "Hipertrofia máxima, foco em falha e volume",
     "exercicios": [
       {
         "nome": "Agachamento livre",
+        "series": "4",
+        "reps": "10",
+        "tecnica": "Pirâmide",
+        "obs": ""
+      },
+      {
+        "nome": "Leg press 45°",
         "series": "3",
         "reps": "12",
-        "tecnica": "Cadência 2-1-2",
+        "tecnica": "Drop-set na última",
         "obs": ""
       },
       {
         "nome": "Cadeira extensora",
         "series": "3",
-        "reps": "12",
-        "tecnica": "",
+        "reps": "15",
+        "tecnica": "FST-7",
         "obs": ""
       },
       {
@@ -96,9 +117,9 @@ const treinos = [
         "obs": ""
       },
       {
-        "nome": "Panturrilha em pé",
-        "series": "3",
-        "reps": "12",
+        "nome": "Panturrilha no leg",
+        "series": "4",
+        "reps": "20",
         "tecnica": "",
         "obs": ""
       }
@@ -106,18 +127,25 @@ const treinos = [
   },
   {
     "dia": "DIA 4 – OMBROS + CORE",
-    "tecnica": "Execução controlada + volume moderado",
-    "objetivo": "Hipertrofia progressiva e segura para iniciantes",
+    "tecnica": "Alta intensidade com técnicas avançadas",
+    "objetivo": "Hipertrofia máxima, foco em falha e volume",
     "exercicios": [
       {
-        "nome": "Desenvolvimento halteres",
+        "nome": "Desenvolvimento militar",
         "series": "3",
-        "reps": "12",
+        "reps": "10",
         "tecnica": "",
         "obs": ""
       },
       {
         "nome": "Elevação lateral",
+        "series": "3",
+        "reps": "15/12/10",
+        "tecnica": "Drop-set",
+        "obs": ""
+      },
+      {
+        "nome": "Crucifixo inverso",
         "series": "3",
         "reps": "12",
         "tecnica": "",
@@ -126,14 +154,14 @@ const treinos = [
       {
         "nome": "Prancha frontal",
         "series": "3",
-        "reps": "12",
+        "reps": "60s",
         "tecnica": "",
         "obs": ""
       },
       {
-        "nome": "Abdominal bicicleta",
+        "nome": "Abdominal com peso",
         "series": "3",
-        "reps": "12",
+        "reps": "15",
         "tecnica": "",
         "obs": ""
       }
@@ -141,67 +169,81 @@ const treinos = [
   },
   {
     "dia": "DIA 5 – PEITO + TRÍCEPS",
-    "tecnica": "Execução controlada + volume moderado",
-    "objetivo": "Hipertrofia progressiva e segura para iniciantes",
+    "tecnica": "Alta intensidade com técnicas avançadas",
+    "objetivo": "Hipertrofia máxima, foco em falha e volume",
     "exercicios": [
       {
         "nome": "Supino reto com barra",
-        "series": "3",
-        "reps": "12",
-        "tecnica": "Cadência 2-1-2",
+        "series": "4",
+        "reps": "10",
+        "tecnica": "Pirâmide",
         "obs": ""
       },
       {
-        "nome": "Crucifixo inclinado",
+        "nome": "Supino inclinado halteres",
+        "series": "3",
+        "reps": "10",
+        "tecnica": "Cadência 3s descida",
+        "obs": ""
+      },
+      {
+        "nome": "Crossover polia alta",
         "series": "3",
         "reps": "12",
         "tecnica": "",
         "obs": ""
       },
       {
-        "nome": "Tríceps pulley",
+        "nome": "Tríceps testa",
         "series": "3",
-        "reps": "12",
+        "reps": "10",
         "tecnica": "",
         "obs": ""
       },
       {
-        "nome": "Mergulho em banco",
+        "nome": "Tríceps corda",
         "series": "3",
         "reps": "12",
-        "tecnica": "",
+        "tecnica": "Rest-pause",
         "obs": ""
       }
     ]
   },
   {
     "dia": "DIA 6 – COSTAS + BÍCEPS",
-    "tecnica": "Execução controlada + volume moderado",
-    "objetivo": "Hipertrofia progressiva e segura para iniciantes",
+    "tecnica": "Alta intensidade com técnicas avançadas",
+    "objetivo": "Hipertrofia máxima, foco em falha e volume",
     "exercicios": [
       {
-        "nome": "Puxada frontal",
+        "nome": "Puxada frente",
+        "series": "4",
+        "reps": "10",
+        "tecnica": "Cadência 2-1-2",
+        "obs": ""
+      },
+      {
+        "nome": "Remada unilateral halteres",
         "series": "3",
         "reps": "12",
         "tecnica": "",
         "obs": ""
       },
       {
-        "nome": "Remada baixa",
+        "nome": "Barra fixa",
         "series": "3",
-        "reps": "12",
+        "reps": "Até a falha",
         "tecnica": "",
         "obs": ""
       },
       {
-        "nome": "Rosca direta com barra",
+        "nome": "Rosca direta",
         "series": "3",
-        "reps": "12",
-        "tecnica": "",
+        "reps": "10",
+        "tecnica": "Drop-set",
         "obs": ""
       },
       {
-        "nome": "Rosca alternada",
+        "nome": "Rosca concentrada",
         "series": "3",
         "reps": "12",
         "tecnica": "",
@@ -210,22 +252,29 @@ const treinos = [
     ]
   },
   {
-    "dia": "DIA 7 – PERNAS",
-    "tecnica": "Execução controlada + volume moderado",
-    "objetivo": "Hipertrofia progressiva e segura para iniciantes",
+    "dia": "DIA 7 – PERNAS COMPLETAS",
+    "tecnica": "Alta intensidade com técnicas avançadas",
+    "objetivo": "Hipertrofia máxima, foco em falha e volume",
     "exercicios": [
       {
         "nome": "Agachamento livre",
+        "series": "4",
+        "reps": "10",
+        "tecnica": "Pirâmide",
+        "obs": ""
+      },
+      {
+        "nome": "Leg press 45°",
         "series": "3",
         "reps": "12",
-        "tecnica": "Cadência 2-1-2",
+        "tecnica": "Drop-set na última",
         "obs": ""
       },
       {
         "nome": "Cadeira extensora",
         "series": "3",
-        "reps": "12",
-        "tecnica": "",
+        "reps": "15",
+        "tecnica": "FST-7",
         "obs": ""
       },
       {
@@ -236,9 +285,9 @@ const treinos = [
         "obs": ""
       },
       {
-        "nome": "Panturrilha em pé",
-        "series": "3",
-        "reps": "12",
+        "nome": "Panturrilha no leg",
+        "series": "4",
+        "reps": "20",
         "tecnica": "",
         "obs": ""
       }
@@ -246,18 +295,25 @@ const treinos = [
   },
   {
     "dia": "DIA 8 – OMBROS + CORE",
-    "tecnica": "Execução controlada + volume moderado",
-    "objetivo": "Hipertrofia progressiva e segura para iniciantes",
+    "tecnica": "Alta intensidade com técnicas avançadas",
+    "objetivo": "Hipertrofia máxima, foco em falha e volume",
     "exercicios": [
       {
-        "nome": "Desenvolvimento halteres",
+        "nome": "Desenvolvimento militar",
         "series": "3",
-        "reps": "12",
+        "reps": "10",
         "tecnica": "",
         "obs": ""
       },
       {
         "nome": "Elevação lateral",
+        "series": "3",
+        "reps": "15/12/10",
+        "tecnica": "Drop-set",
+        "obs": ""
+      },
+      {
+        "nome": "Crucifixo inverso",
         "series": "3",
         "reps": "12",
         "tecnica": "",
@@ -266,14 +322,14 @@ const treinos = [
       {
         "nome": "Prancha frontal",
         "series": "3",
-        "reps": "12",
+        "reps": "60s",
         "tecnica": "",
         "obs": ""
       },
       {
-        "nome": "Abdominal bicicleta",
+        "nome": "Abdominal com peso",
         "series": "3",
-        "reps": "12",
+        "reps": "15",
         "tecnica": "",
         "obs": ""
       }
@@ -281,67 +337,81 @@ const treinos = [
   },
   {
     "dia": "DIA 9 – PEITO + TRÍCEPS",
-    "tecnica": "Execução controlada + volume moderado",
-    "objetivo": "Hipertrofia progressiva e segura para iniciantes",
+    "tecnica": "Alta intensidade com técnicas avançadas",
+    "objetivo": "Hipertrofia máxima, foco em falha e volume",
     "exercicios": [
       {
         "nome": "Supino reto com barra",
-        "series": "3",
-        "reps": "12",
-        "tecnica": "Cadência 2-1-2",
+        "series": "4",
+        "reps": "10",
+        "tecnica": "Pirâmide",
         "obs": ""
       },
       {
-        "nome": "Crucifixo inclinado",
+        "nome": "Supino inclinado halteres",
+        "series": "3",
+        "reps": "10",
+        "tecnica": "Cadência 3s descida",
+        "obs": ""
+      },
+      {
+        "nome": "Crossover polia alta",
         "series": "3",
         "reps": "12",
         "tecnica": "",
         "obs": ""
       },
       {
-        "nome": "Tríceps pulley",
+        "nome": "Tríceps testa",
         "series": "3",
-        "reps": "12",
+        "reps": "10",
         "tecnica": "",
         "obs": ""
       },
       {
-        "nome": "Mergulho em banco",
+        "nome": "Tríceps corda",
         "series": "3",
         "reps": "12",
-        "tecnica": "",
+        "tecnica": "Rest-pause",
         "obs": ""
       }
     ]
   },
   {
     "dia": "DIA 10 – COSTAS + BÍCEPS",
-    "tecnica": "Execução controlada + volume moderado",
-    "objetivo": "Hipertrofia progressiva e segura para iniciantes",
+    "tecnica": "Alta intensidade com técnicas avançadas",
+    "objetivo": "Hipertrofia máxima, foco em falha e volume",
     "exercicios": [
       {
-        "nome": "Puxada frontal",
+        "nome": "Puxada frente",
+        "series": "4",
+        "reps": "10",
+        "tecnica": "Cadência 2-1-2",
+        "obs": ""
+      },
+      {
+        "nome": "Remada unilateral halteres",
         "series": "3",
         "reps": "12",
         "tecnica": "",
         "obs": ""
       },
       {
-        "nome": "Remada baixa",
+        "nome": "Barra fixa",
         "series": "3",
-        "reps": "12",
+        "reps": "Até a falha",
         "tecnica": "",
         "obs": ""
       },
       {
-        "nome": "Rosca direta com barra",
+        "nome": "Rosca direta",
         "series": "3",
-        "reps": "12",
-        "tecnica": "",
+        "reps": "10",
+        "tecnica": "Drop-set",
         "obs": ""
       },
       {
-        "nome": "Rosca alternada",
+        "nome": "Rosca concentrada",
         "series": "3",
         "reps": "12",
         "tecnica": "",
@@ -350,22 +420,29 @@ const treinos = [
     ]
   },
   {
-    "dia": "DIA 11 – PERNAS",
-    "tecnica": "Execução controlada + volume moderado",
-    "objetivo": "Hipertrofia progressiva e segura para iniciantes",
+    "dia": "DIA 11 – PERNAS COMPLETAS",
+    "tecnica": "Alta intensidade com técnicas avançadas",
+    "objetivo": "Hipertrofia máxima, foco em falha e volume",
     "exercicios": [
       {
         "nome": "Agachamento livre",
+        "series": "4",
+        "reps": "10",
+        "tecnica": "Pirâmide",
+        "obs": ""
+      },
+      {
+        "nome": "Leg press 45°",
         "series": "3",
         "reps": "12",
-        "tecnica": "Cadência 2-1-2",
+        "tecnica": "Drop-set na última",
         "obs": ""
       },
       {
         "nome": "Cadeira extensora",
         "series": "3",
-        "reps": "12",
-        "tecnica": "",
+        "reps": "15",
+        "tecnica": "FST-7",
         "obs": ""
       },
       {
@@ -376,9 +453,9 @@ const treinos = [
         "obs": ""
       },
       {
-        "nome": "Panturrilha em pé",
-        "series": "3",
-        "reps": "12",
+        "nome": "Panturrilha no leg",
+        "series": "4",
+        "reps": "20",
         "tecnica": "",
         "obs": ""
       }
@@ -386,18 +463,25 @@ const treinos = [
   },
   {
     "dia": "DIA 12 – OMBROS + CORE",
-    "tecnica": "Execução controlada + volume moderado",
-    "objetivo": "Hipertrofia progressiva e segura para iniciantes",
+    "tecnica": "Alta intensidade com técnicas avançadas",
+    "objetivo": "Hipertrofia máxima, foco em falha e volume",
     "exercicios": [
       {
-        "nome": "Desenvolvimento halteres",
+        "nome": "Desenvolvimento militar",
         "series": "3",
-        "reps": "12",
+        "reps": "10",
         "tecnica": "",
         "obs": ""
       },
       {
         "nome": "Elevação lateral",
+        "series": "3",
+        "reps": "15/12/10",
+        "tecnica": "Drop-set",
+        "obs": ""
+      },
+      {
+        "nome": "Crucifixo inverso",
         "series": "3",
         "reps": "12",
         "tecnica": "",
@@ -406,14 +490,14 @@ const treinos = [
       {
         "nome": "Prancha frontal",
         "series": "3",
-        "reps": "12",
+        "reps": "60s",
         "tecnica": "",
         "obs": ""
       },
       {
-        "nome": "Abdominal bicicleta",
+        "nome": "Abdominal com peso",
         "series": "3",
-        "reps": "12",
+        "reps": "15",
         "tecnica": "",
         "obs": ""
       }
@@ -421,67 +505,81 @@ const treinos = [
   },
   {
     "dia": "DIA 13 – PEITO + TRÍCEPS",
-    "tecnica": "Execução controlada + volume moderado",
-    "objetivo": "Hipertrofia progressiva e segura para iniciantes",
+    "tecnica": "Alta intensidade com técnicas avançadas",
+    "objetivo": "Hipertrofia máxima, foco em falha e volume",
     "exercicios": [
       {
         "nome": "Supino reto com barra",
-        "series": "3",
-        "reps": "12",
-        "tecnica": "Cadência 2-1-2",
+        "series": "4",
+        "reps": "10",
+        "tecnica": "Pirâmide",
         "obs": ""
       },
       {
-        "nome": "Crucifixo inclinado",
+        "nome": "Supino inclinado halteres",
+        "series": "3",
+        "reps": "10",
+        "tecnica": "Cadência 3s descida",
+        "obs": ""
+      },
+      {
+        "nome": "Crossover polia alta",
         "series": "3",
         "reps": "12",
         "tecnica": "",
         "obs": ""
       },
       {
-        "nome": "Tríceps pulley",
+        "nome": "Tríceps testa",
         "series": "3",
-        "reps": "12",
+        "reps": "10",
         "tecnica": "",
         "obs": ""
       },
       {
-        "nome": "Mergulho em banco",
+        "nome": "Tríceps corda",
         "series": "3",
         "reps": "12",
-        "tecnica": "",
+        "tecnica": "Rest-pause",
         "obs": ""
       }
     ]
   },
   {
     "dia": "DIA 14 – COSTAS + BÍCEPS",
-    "tecnica": "Execução controlada + volume moderado",
-    "objetivo": "Hipertrofia progressiva e segura para iniciantes",
+    "tecnica": "Alta intensidade com técnicas avançadas",
+    "objetivo": "Hipertrofia máxima, foco em falha e volume",
     "exercicios": [
       {
-        "nome": "Puxada frontal",
+        "nome": "Puxada frente",
+        "series": "4",
+        "reps": "10",
+        "tecnica": "Cadência 2-1-2",
+        "obs": ""
+      },
+      {
+        "nome": "Remada unilateral halteres",
         "series": "3",
         "reps": "12",
         "tecnica": "",
         "obs": ""
       },
       {
-        "nome": "Remada baixa",
+        "nome": "Barra fixa",
         "series": "3",
-        "reps": "12",
+        "reps": "Até a falha",
         "tecnica": "",
         "obs": ""
       },
       {
-        "nome": "Rosca direta com barra",
+        "nome": "Rosca direta",
         "series": "3",
-        "reps": "12",
-        "tecnica": "",
+        "reps": "10",
+        "tecnica": "Drop-set",
         "obs": ""
       },
       {
-        "nome": "Rosca alternada",
+        "nome": "Rosca concentrada",
         "series": "3",
         "reps": "12",
         "tecnica": "",
@@ -490,7 +588,6 @@ const treinos = [
     ]
   }
 ];
-
 
 
 // --- RENDERIZAÇÃO DOS TREINOS ---
@@ -596,6 +693,7 @@ document.getElementById("salvarFeedback").addEventListener("click", () => {
 document.getElementById("darkToggle")?.addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
 });
+
 
 
 
